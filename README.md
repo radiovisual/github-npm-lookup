@@ -1,6 +1,6 @@
 # <img src="icon.png" width="30"> GitHub npm Lookup
 
-> Chrome/Opera extension - Click on github's JS import/require statements for quick npm package lookup.
+> Chrome extension - Click on github's JS import/require statements for quick npm package lookup.
 
 ![](screenshot.png)
 
@@ -37,8 +37,7 @@ import something from './index.js';
 
 ## Install
 
-* [Chrome extension]()
-* [Opera add-on]()
+* [Chrome extension](https://chrome.google.com/webstore/detail/github-npm-lookup/ijgbachgpjabdghaghpngjhkmimojodg)
 
 ## License
 
