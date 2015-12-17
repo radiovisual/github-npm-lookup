@@ -30,10 +30,10 @@ import something from './index.js';
 
 ## Known Limitations
 
-- Currently, this extension will skip curried dependency declarations like:
-    ```js
-    var deprecate = require('depd')('express');
-    ```
+Currently, this extension will skip curried dependency declarations like:
+```js
+var deprecate = require('depd')('express');
+```
 
 ## Install
 
