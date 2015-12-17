@@ -1,0 +1,28 @@
+{
+	"name": "GitHub npm Lookup",
+	"version": "1.0.0",
+	"description": "Click on github's JS import/require statements for quick npm package lookup.",
+	"homepage_url": "https://github.com/radiovisual/github-npm-lookup",
+	"manifest_version": 2,
+	"minimum_chrome_version": "46",
+	"icons": {
+		"128": "icon.png"
+	},
+	"permissions": [
+		"https://github.com/*/*"
+	],
+	"content_scripts": [
+		{
+			"run_at": "document_start",
+			"matches": [
+				"https://github.com/*/*"
+			],
+			"css": [
+				"content.css"
+			],
+			"js": [
+				"content.js"
+			]
+		}
+	]
+}
