@@ -1,4 +1,4 @@
-# <img src="icon.png" width="30"> GitHub npm Lookup
+# <img src="media/icon.png" width="30"> GitHub npm Lookup
 
 > Chrome ContextMenu Extension - Turn selected text into a quick npm package lookup.
 
@@ -10,7 +10,7 @@
 
 ...Then, :boom: **BOOM!** you have saved precious time. 
 
-![](screenshot.png)
+![](media/screenshot.png)
 
 **Pro Tip:** Use this extension all over github's javascript source code viewer. You can select the text inside of `require()` or `import` statements to quickly review the npm profiles of javascript modules. 
 
