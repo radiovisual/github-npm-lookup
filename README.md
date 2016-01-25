@@ -1,42 +1,18 @@
 # <img src="icon.png" width="30"> GitHub npm Lookup
 
-> Chrome extension - Click on github's JS import/require statements for quick npm package lookup.
+> Chrome ContextMenu Extension - Turn selected text into a quick npm package lookup.
 
-This Chrome Extension will convert your import/require package names into hyperlinks (to their respective npmjs.org profile) when viewing JavaScript source code on Github.
+## Usage
+
+1. Select some text on a webpage (like on github's source code viewer)
+2. Right click
+3. Select `Lookup on npmjs.com` from the context menu. 
+
+...Then, :boom: **BOOM!** you have saved precious time. 
 
 ![](screenshot.png)
 
-## ES6 `import`
-
- In the example below `events` and `array-uniq` are now hyperlinks to their respective npm package: 
-```js
-import {EventEmitter} from 'events';
-import arrayUniq from 'array-uniq';
-```
-    
-## ES5 `require()`
-
- In the example below `events` and `array-uniq` are now hyperlinks to their respective npm package: 
-```js
-var events =  require('events');
-var arrayUniq = require('array-uniq');
-```
-
-## Skip Local Packages
-
-Local packages are ignored, so your local packages will not be converted to hyperlinks:
-```js
-// Local packages are not converted to links:
-import something from './index.js';
-```
-
-
-## Known Limitations
-
-Currently, this extension will skip curried dependency declarations like:
-```js
-var deprecate = require('depd')('express');
-```
+**Pro Tip:** Use this extension all over github's javascript source code viewer. You can select the text inside of `require()` or `import` statements to quickly review the npm profiles of javascript modules. 
 
 ## Install
 
