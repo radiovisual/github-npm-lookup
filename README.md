@@ -1,4 +1,4 @@
-# <img src="media/icon.png" width="30"> GitHub npm Lookup
+# <img src="extension/images/icon.png" width="30"> NPM Lookup
 
 > Chrome ContextMenu Extension - Turn selected text into a quick npm package lookup.
 
@@ -10,13 +10,18 @@
 
 ...Then, :boom: **BOOM!** you have saved precious time. 
 
-![](media/screenshot.png)
+![](screenshot.png)
 
 **Pro Tip:** Use this extension all over github's javascript source code viewer. You can select the text inside of `require()` or `import` statements to quickly review the npm profiles of javascript modules. 
 
 ## Install
 
 * [Chrome extension](https://chrome.google.com/webstore/detail/github-npm-lookup/ijgbachgpjabdghaghpngjhkmimojodg)
+
+## Related
+
+- [npms-lookup-cli](https://github.com/radiovisual/npms-lookup-cli) Search npm packages on npms.io from the command line.
+- [npm-lookup-cli](https://github.com/radiovisual/npm-lookup-cli) Lookup npm packages on npmjs.org from the command line.
 
 ## License
 
