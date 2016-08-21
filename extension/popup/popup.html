@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NPM Lookup</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js"></script>
+
+    <script>
+        function init() {
+
+
+                alert(window);
+
+                $('#launch-npmjs').click(function() {
+                    alert('clicked');
+                    npmjs();
+                });
+                $('#launch-npms').click(function() {
+                    alert('clicked launch-npms');
+                    npms();
+                });
+
+        }
+    </script>
+
+</head>
+<body>
+    <h3>Quick Lookup</h3>
+    <p>Paste or type a package name for quick lookup on npmjs.org or npms.io.</p>
+    <input type="text" id="package-name" title="Package Name">
+    <button type="button" title="Search on npmjs.org" id="launch-npmjs">npmjs.org</button>
+    <button type="button" title="Search on npms.io" id="launch-npms">npms.io</button>
+</body>
+</html>

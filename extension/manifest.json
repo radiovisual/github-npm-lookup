@@ -1,0 +1,30 @@
+{
+	"name": "NPM Lookup",
+	"version": "2.0.0",
+	"description": "Turn selected text on a webpage into an npmjs.org or npms.io package lookup",
+	"homepage_url": "https://github.com/radiovisual/github-npm-lookup",
+	"manifest_version": 2,
+	"minimum_chrome_version": "38",
+	"icons": {
+		"128": "images/icon.png"
+	},
+	"permissions": [
+		"contextMenus",
+		"storage",
+		"activeTab"
+	],
+	"background": {
+		"scripts": [
+			"menu.js",
+			"/options/options.js"
+		]
+	},
+	"browser_action": {
+		"default_icon": {
+			"19": "images/icon19.png",
+			"38": "images/icon38.png"
+		},
+		"default_title": "npm lookup",
+		"default_popup": "popup/popup.html"
+	}
+}

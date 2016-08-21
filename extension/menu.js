@@ -10,4 +10,8 @@ chrome.runtime.onInstalled.addListener(function () {
 	function opennpm(info) {
 		window.open('https://www.npmjs.com/package/' + info.selectionText, '_blank');
 	}
+	// TODO: add in npms.io option
+	// function opennpms(info) {
+	// 	window.open('https://npms.io/search?term=' + info.selectionText, '_blank');
+	// }
 });
