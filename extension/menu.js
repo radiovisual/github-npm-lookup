@@ -8,7 +8,7 @@ chrome.runtime.onInstalled.addListener(function () {
 		onclick: opennpm
 	});
 	function opennpm(info) {
-		window.open('https://www.npmjs.com/package/' + info.selectionText, '_blank');
+		chrome.tabs.create({ url: 'https://www.npmjs.com/package/' + info.selectionText });
 	}
 	// TODO: add in npms.io option
 	// function opennpms(info) {
